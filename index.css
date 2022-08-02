@@ -121,8 +121,9 @@
     justify-content: Center;
     color: white;
     font-family: "Lora","Baskerville", Serif;
-    background-color: #0A0A0A;
-    font-size: 2vw;
+    font-size: 2.5vw;
+    font-weight: 100;
+    z-index: 1;
 }
 
 .Background{

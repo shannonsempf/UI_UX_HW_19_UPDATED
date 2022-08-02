@@ -2,7 +2,7 @@
 
 
 
-$('.Burger').on(click, function(){
+$('.Burger').on('click', function(){
     $('#modal-menu').toggleClass('active')
 })
 
@@ -20,9 +20,9 @@ $('.Burger').on(click, function(){
 
 var currentBackground = 0;
 var backgrounds = [];
-backgrounds[0] = 'URL(./images/Loop_Image_0.PNG)';
-backgrounds[1] = 'URL(./images/Loop_Image_1.PNG)';
-backgrounds[2] = 'URL(./images/Loop_Image_3.PNG)';
+backgrounds[0] = 'url(./images/loop_image_0.PNG)';
+backgrounds[1] = 'url(./images/loop_image_1.PNG)';
+backgrounds[2] = 'url(./images/loop_image_3.PNG)';
 
 //make the images loop when it gets to the end of teh sequence 
 
